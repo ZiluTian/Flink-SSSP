@@ -1,5 +1,5 @@
 # Flink-SSSP
-The directory `/SSSP/*` contains a minimal example for defining an iterative algorithm in Flink 1.16.1 using Scala 2.12. Tested on CentOS with Java 8 and 11. 
+The directory `/SSSP/*` contains a minimal example for defining an iterative algorithm in Flink 1.16.1 using Scala 2.12. Tested on CentOS 7 with Java 8 and 11. 
 
 You package the application into a uber jar with `sbt assembly` and then submit the jar to a running Flink cluster: 
 
